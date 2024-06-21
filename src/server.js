@@ -46,6 +46,8 @@ io.on('connection', (socket)=>{
         const player = players.find( player => player.id === socket.id);
         player.position = valuesTranformPlayer.position;
         player.rotation = valuesTranformPlayer.rotation;
+        console.log(valuesTranformPlayer.rotation)
+        console.log(valuesTranformPlayer.position)
         socket.broadcast.emit("updates-values-transform-player", player);
     })
 
