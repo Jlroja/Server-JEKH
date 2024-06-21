@@ -1,0 +1,17 @@
+{
+    "name": "jekh",
+    "version": "1.0.0",
+    "description": "Sphere websockets server",
+    "main": "src/server.js",
+    "scripts": {
+        "dev": "node --watch src/server.js"
+    },
+    "keywords": [],
+    "author": "JEKH",
+    "license": "ISC",
+    "dependencies": {
+        "cors": "^2.8.5",
+        "nodemon": "^3.1.4",
+        "socket.io": "^4.7.5"
+    }
+}
